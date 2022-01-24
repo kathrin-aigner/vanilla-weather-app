@@ -24,10 +24,6 @@
   letter-spacing: 0.05em;
 }
 
-h1 {
-  font-family: "Tenor Sans", sans-serif;
-}
-
 body {
   background: linear-gradient(
     111.4deg,
@@ -39,9 +35,4 @@ body {
 }
 .form-control {
   border-color: black;
-  border-radius: 30px;
-}
-
-.btn-dark {
-  border-radius: 30px;
 }
