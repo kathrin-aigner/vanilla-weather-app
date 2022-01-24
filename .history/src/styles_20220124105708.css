@@ -2,8 +2,8 @@
   font-family: "Tenor Sans", sans-serif;
   font-size: 75px;
   text-align: center;
-  margin-top: 100px;
-  line-height: 75px;
+  margin-top: 150px;
+  line-height: 84px;
 }
 
 .subheader {
@@ -11,7 +11,7 @@
   font-size: 75px;
   text-align: center;
   margin-left: 150px;
-  line-height: 100px;
+  line-height: 84px;
 }
 
 .small {
@@ -19,9 +19,6 @@
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
-  text-align: center;
-  margin-top: 20px;
-  letter-spacing: 0.05em;
 }
 
 body {
