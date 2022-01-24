@@ -47,12 +47,14 @@ body {
 }
 
 ul {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 24px;
   list-style-type: none;
   padding: 2px;
 }
 
-hr.solid {
-  border-top: 1px solid #000000;
+.weather-content {
+  max-width: 80vw;
+  border: solid 2px;
+  border-color: black;
+  border-radius: 30px;
+  margin: 0 auto;
 }
