@@ -73,13 +73,12 @@ footer {
 .float-left img {
   position: relative;
   top: -12px;
-  width: 100px;
-  height: 100px;
+  width: 105px;
+  height: 105px;
 }
 
-.temp {
+.float-left strong {
   font-size: 80px;
-  font-weight: normal;
 }
 
 .unit {

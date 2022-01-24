@@ -14,7 +14,7 @@
   line-height: 100px;
 }
 
-.tagline {
+.small {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: bold;
@@ -69,21 +69,17 @@ footer {
   font-size: 48px;
 }
 
+.weather-temp img {
+  margin-right: 10 px;
 
+  height: 120px;
+  width: 120px;
+}
 .float-left img {
-  position: relative;
-  top: -12px;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
 }
 
-.temp {
-  font-size: 80px;
-  font-weight: normal;
+strong {
+  font-size: 50px;
 }
-
-.unit {
-  font-family: Arial, Helvetica, sans-serif;
-  position: relative;
-  font-size:24px;
-  top: -34px;

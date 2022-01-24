@@ -69,17 +69,20 @@ footer {
   font-size: 48px;
 }
 
+.weather-temp img {
+  margin-right: 10 px;
 
+  height: 120px;
+  width: 120px;
+}
 .float-left img {
-  position: relative;
-  top: -12px;
-  width: 100px;
-  height: 100px;
+  top:-12px;
+  width: 120px;
+  height: 120px;
 }
 
-.temp {
+.float-left strong {
   font-size: 80px;
-  font-weight: normal;
 }
 
 .unit {
