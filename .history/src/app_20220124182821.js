@@ -1,4 +1,4 @@
-function formatDate(timestamp) {
+/*function formatDate(timestamp) {
   let date = new Date(timestamp);
   let hours = date.getHours();
   if (hours < 10) {
@@ -21,7 +21,7 @@ function formatDate(timestamp) {
   ];
   let day = days[date.getDay()];
   return `${day} ${hours}:${minutes}`;
-}
+}*/
 
 function displayTemperature(response) {
   console.log(response.data.main.temp);
@@ -30,7 +30,7 @@ function displayTemperature(response) {
   let descriptionElement = document.querySelector("#description");
   let humidityElement = document.querySelector("#humidity");
   let windElement = document.querySelector("#wind");
-  let dateElement = document.querySelector("#date");
+  //let dateElement = document.querySelector("#date");
   let iconElement = document.querySelector("#icon");
 
   windElement.innerHTML = Math.round(response.data.wind.speed);
@@ -41,7 +41,7 @@ function displayTemperature(response) {
   //dateElement.innerHTML = formatDate(response.data.dt * 1000);
   iconElement.setAttribute(
     "src",
-    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+    `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
 }
 
