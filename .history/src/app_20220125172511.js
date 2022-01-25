@@ -46,7 +46,7 @@ function displayTemperature(response) {
 }
 
 let apiKey = "1516ff45c0055b56ce372bbf8f475ed9";
-let city = "Linz";
+let city = "Paris";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 console.log(apiUrl);
