@@ -94,10 +94,6 @@ a {
   text-decoration: none;
 }
 
-.currentdate {
-  margin-top: 24px;
-}
-
-.lastcontact {
-  font-size: 18px;
+description {
+  margin-top: 32px;
 }
