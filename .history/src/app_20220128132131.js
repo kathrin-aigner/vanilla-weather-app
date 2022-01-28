@@ -46,6 +46,7 @@ function displayTemperature(response) {
 }
 function search(city) {
   let apiKey = "1516ff45c0055b56ce372bbf8f475ed9";
+  let city = "Linz";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   axios.get(apiUrl).then(displayTemperature);
 }
@@ -56,7 +57,7 @@ function handleSubmit(event) {
   search(cityInputElement.value);
 }
 
-search("New York");
+search("Paris");
 
 let form = document.querySelector("#search-form");
-form.addEventListener("click", handleSubmit);
+form.addEventListerner("submit", handleSubmit);

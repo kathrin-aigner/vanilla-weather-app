@@ -44,19 +44,17 @@ function displayTemperature(response) {
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
 }
-function search(city) {
-  let apiKey = "1516ff45c0055b56ce372bbf8f475ed9";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-  axios.get(apiUrl).then(displayTemperature);
-}
 
-function handleSubmit(event) {
+function search(event) {
   event.preventDefault();
   let cityInputElement = document.querySelector("#city-input");
-  search(cityInputElement.value);
 }
+let apiKey = "1516ff45c0055b56ce372bbf8f475ed9";
+let city = "Linz";
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
-search("New York");
+console.log(apiUrl);
+axios.get(apiUrl).then(displayTemperature);
 
 let form = document.querySelector("#search-form");
-form.addEventListener("click", handleSubmit);
+form.addEventListerner("submit", search);
