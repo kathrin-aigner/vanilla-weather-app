@@ -88,8 +88,7 @@ footer {
   top: -34px;
 }
 
-a {
-  font-weight: 600;
-  color: black;
-  text-decoration: none;
+.btn btn-primary {
+  border-radius: 30px;
+  background-color: black;
 }

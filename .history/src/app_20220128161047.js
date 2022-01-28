@@ -33,12 +33,10 @@ function displayTemperature(response) {
   let dateElement = document.querySelector("#date");
   let iconElement = document.querySelector("#icon");
 
-  celsiusTemperature = response.data.main.temp;
-
   windElement.innerHTML = Math.round(response.data.wind.speed);
   humidityElement.innerHTML = response.data.main.humidity;
   descriptionElement.innerHTML = response.data.weather[0].description;
-  temperatureElement.innerHTML = Math.round(celsiusTemperature);
+  temperatureElement.innerHTML = Math.round(response.data.main.temp);
   cityElement.innerHTML = response.data.name;
   dateElement.innerHTML = formatDate(response.data.dt * 1000);
   iconElement.setAttribute(
@@ -56,31 +54,18 @@ function handleSubmit(event) {
   event.preventDefault();
   let cityInputElement = document.querySelector("#city-input");
   search(cityInputElement.value);
+  let temperatureElement = document.querySelector("#temperature");
+  temperatureElement.innerHTML = fahrenheitTemperature;
 }
 
 function displayFahrenheitTemperature(event) {
   event.preventDefault();
-  let temperatureElement = document.querySelector("#temperature");
-  //remove the unit class to link
-
-  let fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
-  temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
+  let fahrenheitTemperature = (14 * 9) / 5 + 32;
 }
-
-function displayCelsiusTemperature(event) {
-  event.preventDefault();
-  let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = Math.round(celsiusTemperature);
-}
-
-let celsiusTemperature = null;
+search("Linz");
 
 let form = document.querySelector("#search-form");
 form.addEventListener("click", handleSubmit);
 
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
-
-let celsiusLink = document.querySelector("#celsius-link");
-celsiusLink.addEventListener("click", displayCelsiusTemperature);
-search("Linz");

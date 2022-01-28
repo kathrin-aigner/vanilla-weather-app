@@ -62,7 +62,7 @@ function displayFahrenheitTemperature(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
   //remove the unit class to link
-
+  celsiusLink.classList.remove("unit");
   let fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
   temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
 }

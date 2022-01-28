@@ -61,16 +61,8 @@ function handleSubmit(event) {
 function displayFahrenheitTemperature(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
-  //remove the unit class to link
-
   let fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
   temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
-}
-
-function displayCelsiusTemperature(event) {
-  event.preventDefault();
-  let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
 
 let celsiusTemperature = null;
@@ -81,6 +73,4 @@ form.addEventListener("click", handleSubmit);
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
-let celsiusLink = document.querySelector("#celsius-link");
-celsiusLink.addEventListener("click", displayCelsiusTemperature);
 search("Linz");

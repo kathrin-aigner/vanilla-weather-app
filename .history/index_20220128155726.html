@@ -39,7 +39,7 @@
           aria-label="City search input with two Buttons"
         />
         <button class="btn btn-dark" type="submit" value="search">
-          Search <i class="fas fa-hand-sparkles"></i>
+          <i class="fas fa-hand-sparkles"></i>
         </button>
       </div>
     </div>
@@ -48,9 +48,7 @@
       <div class="container">
         <h1 id="city">New York</h1>
         <ul>
-          <li>
-            Last psychic contact: <span id="date"> Date placeholder</span>
-          </li>
+          <li>Psychic contact on: ><span id="date"> Date placeholder</span></li>
           <li id="description"></li>
         </ul>
         <div class="row">
@@ -64,10 +62,7 @@
                   class="float-left"
                 />
                 <span class="temp" id="temperature"></span>
-                <span class="unit"
-                  ><a href="#" id="celsius-link">°C </a> |
-                  <a href="#" id="fahrenheit-link">°F</a></span
-                >
+                <span class="unit">°C | <a href="#">°F</a></span>
               </div>
             </div>
           </div>
@@ -82,13 +77,13 @@
     </div>
     <div class="container">
       <footer>
-        Open source project by
+        View my project on
         <a
           href="https://github.com/kathrin-aigner/vanilla-weather-app"
           target="_blank"
         >
-          Kathrin Aigner
-        </a>
+          Github</a
+        >
       </footer>
     </div>
     <script src="src/app.js"></script>
