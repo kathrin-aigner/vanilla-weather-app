@@ -99,7 +99,7 @@ a {
 }
 
 .currentcondition {
-  margin-top: 96px;
+  margin-top: 113px;
   text-transform: uppercase;
   font-size: 18px;
 }
@@ -136,9 +136,4 @@ a {
 
 .input-group {
   margin: 0 auto;
-}
-
-.metadata {
-  line-height: 32px;
-  font-size: 24px;
 }

@@ -26,7 +26,7 @@
 
 h1 {
   font-family: "Tenor Sans", sans-serif;
-  font-size: 5vw;
+  font-size: 96px;
 }
 
 body {
@@ -50,10 +50,9 @@ body {
 
 ul {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   list-style-type: none;
   padding: 2px;
-  margin-top: 42px;
 }
 
 .weather-content {
@@ -89,7 +88,7 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
   font-size: 24px;
-  top: -65px;
+  top: -70px;
 }
 
 a {
@@ -99,9 +98,7 @@ a {
 }
 
 .currentcondition {
-  margin-top: 96px;
-  text-transform: uppercase;
-  font-size: 18px;
+  margin-top: 113px;
 }
 
 .lastcontact {
@@ -136,9 +133,4 @@ a {
 
 .input-group {
   margin: 0 auto;
-}
-
-.metadata {
-  line-height: 32px;
-  font-size: 24px;
 }
