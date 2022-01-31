@@ -108,22 +108,6 @@ a {
   text-align: center;
 }
 
-.weather-forecast-days {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 24px;
-}
-
-.hightemp {
+.days {
   font-family: "Tenor Sans", sans-serif;
-  font-size: 26px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.lowtemp {
-  font-family: "Tenor Sans", sans-serif;
-  font-size: 26px;
-  font-weight: bold;
-  text-align: center;
-  opacity: 0.6;
 }
