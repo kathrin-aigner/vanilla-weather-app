@@ -27,7 +27,7 @@
 h1 {
   margin-top: 32px;
   font-family: "Tenor Sans", sans-serif;
-  font-size: 75px;
+  font-size: 5vw;
 }
 
 body {
@@ -55,15 +55,16 @@ ul {
   font-size: 18px;
   list-style-type: none;
   padding: 2px;
-  margin-top: 28px;
+  margin-top: 42px;
 }
 
 .weather-content {
-  padding-left: 70px;
+  max-width: 75vw;
+  margin: 0 auto;
 }
 
 footer {
-  margin-top: 100px;
+  margin-top: 30px;
   text-align: center;
 }
 
@@ -99,19 +100,17 @@ a {
 }
 
 .currentcondition {
-  font-family: "Tenor Sans", sans-serif;
   text-transform: uppercase;
-  font-size: 32px;
-  margin-bottom: 12px;
+  font-size: 24px;
 }
 
 .lastcontact {
   font-size: 18px;
+  margin-bottom: 12px;
 }
 
 .weather-forecast {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 100px;
   text-align: center;
 }
 
@@ -137,11 +136,10 @@ a {
 
 .input-group {
   margin: 0 auto;
-  margin-bottom: 3rem;
 }
 
 .metadata {
   text-transform: uppercase;
   line-height: 32px;
-  font-size: 20px;
+  font-size: 24px;
 }

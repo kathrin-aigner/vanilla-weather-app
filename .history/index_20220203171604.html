@@ -47,25 +47,23 @@
         </div>
       </div>
     </div>
-    
-<div class="container">
-   <hr/>
+
     <div class="weather-content">
-     
+      <div class="container">
         <ul>
           <li class="lastcontact">
-            Last psychic contact for <strong>weather prediction</strong> ➝ 
-            <span id="date"><strong></strong></span>
-          </li>
+            Last psychic contact for <strong>weather support</strong> ➝ 
+            <span id="date">Date placeholder</span>
+          </li> </ul>
+          <div class="row">
+        <h1 id="city col-4"></h1>
         
-        </ul>
-        <div class="row">
-          <div class="col-5">
-            <h1 id="city"></h1>
-        </div>
           
-        <div class="col-4">
-         
+          <li class="currentcondition col-4" id="description"></li>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-md-6">
             <div class="clearfix">
               <div class="float-left">
                 <img
@@ -76,25 +74,19 @@
                 />
                 <span class="temp" id="temperature"></span>
                 <span class="unit">°C </span>
-                 
               </div>
             </div>
-           
           </div>
-          
-          <div class="col-3">
+          <div class="col-md-6">
             <ul>
-               <li class="currentcondition" id="description"></li>
-              <li class="metadata">Humidity ➝ <span class="humidity-value" id="humidity"> </span> %</li>
-              <li class="metadata">Wind ➝ <span class= "wind-value" id="wind"></span> km/h</li>
+              <li class="metadata">Humidity ・ <span class="humidity-value" id="humidity"> </span> %</li>
+              <li class="metadata">Wind ・ <span class= "wind-value" id="wind"></span> km/h</li>
             </ul>
-          </div>
+          
         </div>
       </div>
       </div>
-   
       <div class="container">
-         <hr/>
       <div class="weather-forecast" id="forecast">
         <div class="row">
           <div class="col-2">
@@ -115,7 +107,6 @@
   </div>
     
     <div class="container">
-      <hr/>
       <footer>
         Open source project by
         <a
