@@ -136,9 +136,12 @@ a {
 
 .input-group {
   margin-bottom: 3rem;
+  max-width: 600px;
 }
 
 .metadata {
+  display: flex;
+  justify-content: center;
   text-transform: uppercase;
   line-height: 32px;
   font-size: 20px;

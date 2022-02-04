@@ -136,6 +136,7 @@ a {
 
 .input-group {
   margin-bottom: 3rem;
+  max-width: 600px;
 }
 
 .metadata {
