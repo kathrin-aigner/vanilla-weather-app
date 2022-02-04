@@ -31,12 +31,14 @@ h1 {
 }
 
 body {
-  background-attachment: fixed;
-
+  height: 100vh;
+  width: 100vw;
   background: linear-gradient(
-    180.3deg,
-    rgb(214, 224, 255) 37.2%,
-    rgb(254, 168, 168) 137.3%
+    111.4deg,
+    rgb(209, 231, 235) 7.4%,
+    rgb(238, 219, 199) 51.4%,
+    rgb(255, 159, 122) 82.6%,
+    rgb(255, 109, 58) 100.2%
   );
 }
 .form-control {
@@ -61,8 +63,7 @@ ul {
 }
 
 footer {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
   text-align: center;
 }
 

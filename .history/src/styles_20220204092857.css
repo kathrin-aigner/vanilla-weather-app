@@ -33,12 +33,7 @@ h1 {
 body {
   background-attachment: fixed;
 
-  background: linear-gradient(
-    180.3deg,
-    rgb(214, 224, 255) 37.2%,
-    rgb(254, 168, 168) 137.3%
-  );
-}
+  background: linear-gradient(180.3deg, rgb(214, 224, 255) 37.2%, rgb(254, 168, 168) 137.3%);
 .form-control {
   border-color: black;
   border-radius: 30px;
