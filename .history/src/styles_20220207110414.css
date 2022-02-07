@@ -34,10 +34,11 @@ h1 {
 }
 
 body {
+  height: 100%;
   background: linear-gradient(
     180.3deg,
     rgb(214, 224, 255) 37.2%,
-    rgb(254, 168, 168) 138%
+    rgb(254, 168, 168) 100%
   );
 }
 .form-control {
